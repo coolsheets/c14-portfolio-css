@@ -1,0 +1,75 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    margin: 0;
+    padding: 0;
+    background-color: #ebf7c2;
+}
+
+h1 {
+    font-size: 3em;
+    color: rgb(160, 56, 15);
+    /* font-variant-caps:small-caps; */
+}
+
+header {
+    display: flex;
+    align-items: center; 
+    margin-left: 1em;
+    margin-right: 1em;
+    justify-content: space-between;
+}
+
+nav {
+    background-color: rosybrown;
+    padding: 1em;
+    margin: 0.5em;
+    height: fit-content;
+    border-radius: 0.25em;
+
+    /* background-color: black;
+    color: white; */
+    /* font-size: 3em;
+    font-weight: 700; */
+}
+
+button {
+    background-color: rosybrown;
+    border: none;
+    padding: 1em;
+    margin: 0.5em;
+    height: fit-content;
+    border-radius: 0.25em;
+
+}
+
+selected-nav-button {
+    background-color: black;
+    color: white;
+    font-size: 3em;
+    font-weight: 700;
+}
+
+/* using classes */
+.blue-square {
+    background-color: rgba(178, 206, 209, 0.30);
+}
+
+.my-name {
+    font-size: 3em;
+    font-weight: 1000;
+    /* color: rgb(160, 56, 15); */
+}
+
+/* using ID */
+/* #buyNowButton {
+    padding: 1em;
+    border-radius: 0.25em;
+
+    background-color: black;
+    color: white;
+    font-size: 3em;
+    font-weight: 700;
+
+} */

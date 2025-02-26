@@ -1,11 +1,15 @@
+<!-- NOT THE SAME AS TONY'S -->
+
 <html>
     <head>
         <title>Tony's Personal Portfolio</title>
+        <link rel="stylesheet" href="index.css" />
     </head>
     <body>
         <header>
-            <h1>tony</h1>
             <nav>
+                <h1 class="my-name">tony</h1>
+            <!-- <nav style="display: flex; justify-content: space-around;"> -->
                 <button>Home</button>
                 <button>About</button>
                 <button>Projects</button>
@@ -14,13 +18,15 @@
             <div>Contact</div>
         </header>
         <main>
-            <div>
+            <div class="blue-square">
                 <img src="images/werk.png" alt="Tony sits in his comfy office with his non-existant cat" />
-                <p>I am tony, a seasoned Software Engineer with a creative urge to build amazing things.  I also teach others to build amazing things.</p>
+                <p>I am <span class="my-name">tony</span>, a seasoned Software Engineer with a creative urge to build amazing things.  I also teach others to build amazing things.</p>
             </div>
-            <div>
+            <button id="buyNowButton">Buy Now</button>
+            <div class="blue-square">
                 <img src="images/north-america.svg" alt="A map showing north america"/>
             </div>
+
         </main>
     </body>
 </html>
