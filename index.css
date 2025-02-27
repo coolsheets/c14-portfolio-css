@@ -7,12 +7,6 @@ body {
     background-color: #ebf7c2;
 }
 
-h1 {
-    font-size: 3em;
-    color: rgb(160, 56, 15);
-    /* font-variant-caps:small-caps; */
-}
-
 header {
     display: flex;
     align-items: center; 
@@ -20,6 +14,13 @@ header {
     margin-right: 1em;
     justify-content: space-between;
 }
+
+h1 {
+    font-size: 3em;
+    color: rgb(160, 56, 15);
+    /* font-variant-caps:small-caps; */
+}
+
 
 nav {
     background-color: rosybrown;
